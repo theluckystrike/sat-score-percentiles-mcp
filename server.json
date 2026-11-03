@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/sat-score-percentiles-mcp",
+  "title": "SAT Score Percentiles MCP",
+  "description": "SAT score percentiles and class of 2026 SAT averages and participation by state (College Board).",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/sat-score-percentiles-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://examscorecalc.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sat-score-percentiles-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}
